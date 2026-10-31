@@ -1,0 +1,77 @@
+CHESWIN VADDI
+AI/ML Engineer | Full Stack Developer | Software Developer
+Hyderabad, India
+
+PROFILE
+Computer Science undergraduate passionate about Artificial Intelligence,
+Machine Learning, and Full Stack Development. Interested in transforming ideas
+into practical applications and solving real-world problems through technology.
+
+EXPERIENCE
+
+Software Developer Intern — GlobusIT
+October 2026 – Present
+Contributing as an intern to GAAR, an auditing and accounts project, as part
+of the GlobusIT team.
+
+Data Analyst Intern — Bluestock Fintech
+22 April 2026 – 22 June 2026
+Financial data analysis, data cleaning and preprocessing, exploratory data
+analysis, and preparation of reports and dashboards.
+Technologies: Python, Pandas, Excel
+
+Website Contribution — CNLU CS-DPCRU
+Contributed to the institutional website built with HTML, CSS, and JavaScript.
+
+SELECTED PROJECTS
+
+RECALL-OPS — AI-assisted incident investigation with persistent operational
+memory. Python, FastAPI, Hindsight, Next.js, TypeScript.
+
+CineAI — Movie recommendations using collaborative filtering and similarity.
+Python, FastAPI, scikit-learn, React.
+
+Urbanly — Civic issue reporting and tracking platform.
+Next.js, TypeScript, MongoDB, Auth.js, Cloudinary, MapLibre.
+
+All India Villages API — Full-stack regional data explorer and data pipeline.
+Node.js, Express, Prisma, PostgreSQL, React, Python, Pandas.
+Demo: https://all-india-villages-api-pi.vercel.app
+
+Speak2Learn — Conversational English and Swedish language-practice app.
+Python, FastAPI, Gemini API, React.
+
+MiniDB — C++ database storage and buffer-management project.
+C++23, CMake, GoogleTest, Google Benchmark.
+
+Cybercrime Complaint Portal — Educational complaint submission and tracking
+prototype; not connected to real police or government systems.
+React, Node.js, Express, MongoDB, JWT.
+Demo: https://cybercrime-portal.vercel.app
+
+Mutual Fund Analytics Capstone — Data validation, ETL, SQL analysis, and
+dashboard-ready summaries.
+Python, Pandas, Jupyter, PostgreSQL, SQL.
+
+EDUCATION
+Computer Science undergraduate
+Jawaharlal Nehru Technological University Hyderabad
+
+LEARNING & CREDENTIALS
+CyberDevX Workshop — DEVXAI Technologies, March 2025
+Credential ID: 921dfd1a-948c-48fd-9fbd-ed9e685eebc7
+
+The Complete Full Stack Web Development — Udemy, October 2026
+Credential ID: UC-05a3ac5d-ac89-45e0-8054-70938d736f4e
+
+TECHNICAL SKILLS
+AI/ML: Machine Learning, Gemini API, scikit-learn
+Data: Python, Pandas, NumPy, Jupyter, Excel, Data Analysis
+Full Stack: TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS
+Backend & Systems: FastAPI, Node.js, Express, PostgreSQL, MongoDB, C++23
+
+CONTACT
+Email: cheswinvaddi.1@gmail.com
+Phone: +91 6303313433
+GitHub: https://github.com/cheswinvaddi
+LinkedIn: https://www.linkedin.com/in/cheswin-vaddi/

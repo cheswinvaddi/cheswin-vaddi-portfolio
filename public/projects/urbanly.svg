@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#101717"/>
+  <rect x="28" y="28" width="904" height="484" rx="18" fill="#141d1d" stroke="#2d4240"/>
+  <rect x="28" y="28" width="904" height="57" rx="18" fill="#172221"/>
+  <circle cx="58" cy="57" r="13" fill="#6fd1ad"/><path d="M51 58h14M58 51v14" stroke="#13372e" stroke-width="2"/>
+  <text x="82" y="62" fill="#e0eee9" font-family="Arial,sans-serif" font-size="16" font-weight="600">Urbanly</text>
+  <rect x="700" y="43" width="132" height="28" rx="14" fill="#243330"/><circle cx="717" cy="57" r="5" fill="#69d0a6"/><text x="730" y="61" fill="#b7d4ca" font-family="Arial,sans-serif" font-size="10">Local dashboard</text>
+  <rect x="848" y="43" width="58" height="28" rx="8" fill="#54b58f"/><text x="860" y="61" fill="#0f211b" font-family="Arial,sans-serif" font-size="10" font-weight="700">+ Report</text>
+  <rect x="46" y="104" width="252" height="382" rx="13" fill="#192321" stroke="#30413c"/>
+  <text x="66" y="138" fill="#e1e9e4" font-family="Arial,sans-serif" font-size="16" font-weight="600">Community reports</text>
+  <text x="66" y="160" fill="#84968e" font-family="Arial,sans-serif" font-size="11">Recent issues near you</text>
+  <rect x="62" y="180" width="220" height="77" rx="10" fill="#21302b" stroke="#3a5148"/>
+  <circle cx="82" cy="202" r="6" fill="#ffba6b"/><text x="97" y="206" fill="#e3e6dc" font-family="Arial,sans-serif" font-size="11">Streetlight outage</text>
+  <text x="75" y="229" fill="#87998f" font-family="Arial,sans-serif" font-size="10">Oak Street · 2 hours ago</text>
+  <rect x="62" y="270" width="220" height="77" rx="10" fill="#1d2926"/>
+  <circle cx="82" cy="292" r="6" fill="#7dbcf3"/><text x="97" y="296" fill="#d9e2dd" font-family="Arial,sans-serif" font-size="11">Road surface damage</text>
+  <text x="75" y="319" fill="#87998f" font-family="Arial,sans-serif" font-size="10">Park Lane · Yesterday</text>
+  <rect x="62" y="360" width="220" height="77" rx="10" fill="#1d2926"/>
+  <circle cx="82" cy="382" r="6" fill="#ec8c75"/><text x="97" y="386" fill="#d9e2dd" font-family="Arial,sans-serif" font-size="11">Overflowing waste bin</text>
+  <text x="75" y="409" fill="#87998f" font-family="Arial,sans-serif" font-size="10">Market Square · 3 days ago</text>
+  <rect x="316" y="104" width="588" height="382" rx="13" fill="#172321" stroke="#30413c"/>
+  <path d="M339 148h535M339 202h535M339 256h535M339 310h535M339 364h535M339 418h535M403 123v339M482 123v339M561 123v339M640 123v339M719 123v339M798 123v339" stroke="#2b3d39"/>
+  <path d="m330 440 99-40 45-85 91-25 46-76 83-19 91-84" stroke="#47766a" stroke-width="10" opacity=".65"/>
+  <path d="m360 151 76 41 36 76 67 15 32 70 76 16 31 64 109 26" stroke="#385c53" stroke-width="7" opacity=".7"/>
+  <path d="m433 266 35-20 33 17 2 38-37 20-31-18z" fill="#21433a" stroke="#4c8a71"/>
+  <path d="m663 322 46-27 35 20-4 44-40 22-38-20z" fill="#21433a" stroke="#4c8a71"/>
+  <circle cx="533" cy="252" r="17" fill="#ffbc67" fill-opacity=".16"/><circle cx="533" cy="252" r="7" fill="#ffbc67"/>
+  <circle cx="694" cy="199" r="17" fill="#72bdf2" fill-opacity=".15"/><circle cx="694" cy="199" r="7" fill="#72bdf2"/>
+  <circle cx="797" cy="374" r="17" fill="#ed8c75" fill-opacity=".15"/><circle cx="797" cy="374" r="7" fill="#ed8c75"/>
+  <rect x="740" y="119" width="140" height="27" rx="8" fill="#1d2b28"/><circle cx="755" cy="132" r="4" fill="#6fd1ad"/><text x="766" y="136" fill="#bfd0c7" font-family="Arial,sans-serif" font-size="10">Issues near me</text>
+  <text x="49" y="500" fill="#71827a" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">CUSTOM PROJECT ILLUSTRATION</text>
+</svg>

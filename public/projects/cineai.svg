@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#121117"/>
+  <circle cx="766" cy="111" r="240" fill="#302044" opacity=".42"/>
+  <rect x="30" y="29" width="900" height="482" rx="18" fill="#17161e" stroke="#342e41"/>
+  <rect x="55" y="52" width="134" height="24" rx="7" fill="#a993ff"/>
+  <text x="68" y="69" fill="#17131f" font-family="Arial,sans-serif" font-size="14" font-weight="700">CineAI</text>
+  <rect x="564" y="54" width="223" height="22" rx="11" fill="#23212c" stroke="#3b3546"/>
+  <circle cx="580" cy="65" r="4" stroke="#9e94b4" stroke-width="2"/>
+  <rect x="593" y="62" width="145" height="6" rx="3" fill="#6d6879"/>
+  <circle cx="833" cy="65" r="13" fill="#292632"/><circle cx="833" cy="61" r="4" fill="#b5a5fa"/><path d="M826 71c1-5 13-5 14 0" stroke="#b5a5fa" stroke-width="2"/>
+  <text x="58" y="129" fill="#f3f0fa" font-family="Arial,sans-serif" font-size="31" font-weight="600">Find your next favorite</text>
+  <text x="58" y="153" fill="#a7a1b3" font-family="Arial,sans-serif" font-size="13">Picked for your taste. Ready for tonight.</text>
+  <rect x="58" y="179" width="844" height="133" rx="14" fill="#24202e"/>
+  <rect x="58" y="179" width="844" height="133" rx="14" fill="url(#fade)"/>
+  <rect x="76" y="196" width="78" height="99" rx="8" fill="#654955"/>
+  <circle cx="115" cy="226" r="20" fill="#e2a76e" opacity=".7"/><path d="M86 279c10-35 47-34 59 0" fill="#343748"/>
+  <text x="179" y="220" fill="#b7a9ff" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">EDITOR'S PICK</text>
+  <text x="179" y="251" fill="#f0edf5" font-family="Arial,sans-serif" font-size="23" font-weight="600">Stories that stay with you</text>
+  <text x="179" y="276" fill="#aaa5b3" font-family="Arial,sans-serif" font-size="12">Explore recommendations shaped by similarity and your ratings.</text>
+  <text x="58" y="349" fill="#e5e1ed" font-family="Arial,sans-serif" font-size="16" font-weight="600">Recommended for you</text>
+  <g>
+    <rect x="58" y="369" width="151" height="98" rx="9" fill="#40415a"/><circle cx="153" cy="406" r="29" fill="#d89c71" opacity=".65"/><path d="M119 455c8-37 47-49 72 0" fill="#272b40"/>
+    <rect x="223" y="369" width="151" height="98" rx="9" fill="#394c57"/><circle cx="294" cy="406" r="24" fill="#a8bdc4" opacity=".5"/><path d="M247 454c8-32 44-44 71 0" fill="#272c39"/>
+    <rect x="388" y="369" width="151" height="98" rx="9" fill="#594452"/><circle cx="462" cy="406" r="26" fill="#e0b070" opacity=".6"/><path d="M422 456c9-36 49-41 78 0" fill="#342d41"/>
+    <rect x="553" y="369" width="151" height="98" rx="9" fill="#384957"/><circle cx="631" cy="408" r="23" fill="#9bb6d7" opacity=".6"/><path d="M588 455c8-38 49-43 80 0" fill="#272f43"/>
+    <rect x="718" y="369" width="151" height="98" rx="9" fill="#544750"/><circle cx="790" cy="406" r="25" fill="#daaa84" opacity=".65"/><path d="M752 454c10-37 48-44 79 0" fill="#302d3e"/>
+  </g>
+  <g fill="#bbb5c6"><rect x="58" y="478" width="78" height="6" rx="3"/><rect x="223" y="478" width="86" height="6" rx="3"/><rect x="388" y="478" width="96" height="6" rx="3"/><rect x="553" y="478" width="71" height="6" rx="3"/><rect x="718" y="478" width="88" height="6" rx="3"/></g>
+  <text x="49" y="500" fill="#706b7a" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">CUSTOM PROJECT ILLUSTRATION</text>
+  <defs><linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8f65b5" stop-opacity=".2"/><stop offset="1" stop-color="#24202e" stop-opacity="0"/></linearGradient></defs>
+</svg>

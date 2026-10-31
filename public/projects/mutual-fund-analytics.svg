@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#12151a"/>
+  <rect x="28" y="28" width="904" height="484" rx="18" fill="#171c22" stroke="#34404a"/>
+  <rect x="28" y="28" width="904" height="59" rx="18" fill="#1a2027"/>
+  <circle cx="60" cy="57" r="13" fill="#82c7a6"/><path d="m54 60 5-6 4 4 5-8" stroke="#17352a" stroke-width="2"/>
+  <text x="84" y="63" fill="#e1e7e4" font-family="Arial,sans-serif" font-size="16" font-weight="600">Fund analytics</text>
+  <rect x="757" y="43" width="145" height="29" rx="8" fill="#252e34" stroke="#3b484c"/><text x="775" y="62" fill="#a6b0ae" font-family="Arial,sans-serif" font-size="10">Reporting period</text>
+  <text x="53" y="124" fill="#eef0f2" font-family="Arial,sans-serif" font-size="21" font-weight="600">Portfolio overview</text>
+  <text x="53" y="147" fill="#929da2" font-family="Arial,sans-serif" font-size="11">Market and mutual fund analysis</text>
+  <rect x="53" y="170" width="198" height="84" rx="10" fill="#20272d" stroke="#37434b"/>
+  <text x="72" y="198" fill="#9ba5a8" font-family="Arial,sans-serif" font-size="10">FUND COVERAGE</text><text x="72" y="232" fill="#edf0ef" font-family="Arial,sans-serif" font-size="18" font-weight="600">Explore funds</text>
+  <rect x="265" y="170" width="198" height="84" rx="10" fill="#20272d" stroke="#37434b"/>
+  <text x="284" y="198" fill="#9ba5a8" font-family="Arial,sans-serif" font-size="10">DATA WORKFLOW</text><text x="284" y="232" fill="#edf0ef" font-family="Arial,sans-serif" font-size="18" font-weight="600">Source to clean</text>
+  <rect x="477" y="170" width="198" height="84" rx="10" fill="#20272d" stroke="#37434b"/>
+  <text x="496" y="198" fill="#9ba5a8" font-family="Arial,sans-serif" font-size="10">ANALYSIS</text><text x="496" y="232" fill="#edf0ef" font-family="Arial,sans-serif" font-size="18" font-weight="600">SQL + notebooks</text>
+  <rect x="689" y="170" width="213" height="84" rx="10" fill="#20272d" stroke="#37434b"/>
+  <text x="708" y="198" fill="#9ba5a8" font-family="Arial,sans-serif" font-size="10">DATA PIPELINE</text><circle cx="718" cy="229" r="5" fill="#74c9a1"/><text x="733" y="233" fill="#b8d5c7" font-family="Arial,sans-serif" font-size="12">Processed</text>
+  <rect x="53" y="274" width="535" height="207" rx="11" fill="#1c2329" stroke="#35414a"/>
+  <text x="74" y="306" fill="#e2e7e5" font-family="Arial,sans-serif" font-size="14" font-weight="600">Illustrative NAV trend</text>
+  <path d="M83 446h473M83 413h473M83 380h473M83 347h473" stroke="#303941"/>
+  <g fill="#818d91" font-family="Arial,sans-serif" font-size="9"><text x="83" y="466">JAN</text><text x="169" y="466">MAR</text><text x="255" y="466">MAY</text><text x="341" y="466">JUL</text><text x="427" y="466">SEP</text><text x="513" y="466">NOV</text></g>
+  <path d="m85 425 40-12 40 6 40-22 40 13 40-28 40 8 40-24 40 7 40-34 40 4 40-24" stroke="#82c7a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m85 425 40-12 40 6 40-22 40 13 40-28 40 8 40-24 40 7 40-34 40 4 40-24v127H85z" fill="url(#chart)" opacity=".55"/>
+  <rect x="606" y="274" width="296" height="207" rx="11" fill="#1c2329" stroke="#35414a"/>
+  <text x="628" y="306" fill="#e2e7e5" font-family="Arial,sans-serif" font-size="14" font-weight="600">Data workflow</text>
+  <circle cx="641" cy="348" r="12" fill="#283f39" stroke="#68b991"/><path d="m636 348 4 4 7-8" stroke="#8bd3b2" stroke-width="1.5"/>
+  <text x="665" y="352" fill="#cbd2d1" font-family="Arial,sans-serif" font-size="11">Source data</text><path d="M641 361v20" stroke="#465b55" stroke-width="2"/>
+  <circle cx="641" cy="393" r="12" fill="#283f39" stroke="#68b991"/><path d="m636 393 4 4 7-8" stroke="#8bd3b2" stroke-width="1.5"/>
+  <text x="665" y="397" fill="#cbd2d1" font-family="Arial,sans-serif" font-size="11">Clean and transform</text><path d="M641 406v20" stroke="#465b55" stroke-width="2"/>
+  <circle cx="641" cy="438" r="12" fill="#283f39" stroke="#68b991"/><path d="m636 438 4 4 7-8" stroke="#8bd3b2" stroke-width="1.5"/>
+  <text x="665" y="442" fill="#cbd2d1" font-family="Arial,sans-serif" font-size="11">Load and analyze</text>
+  <text x="49" y="500" fill="#78858a" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">CUSTOM PROJECT ILLUSTRATION</text>
+  <defs><linearGradient id="chart" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#82c7a6" stop-opacity=".32"/><stop offset="1" stop-color="#82c7a6" stop-opacity="0"/></linearGradient></defs>
+</svg>

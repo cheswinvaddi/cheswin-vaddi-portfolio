@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#11151a"/>
+  <rect x="28" y="28" width="904" height="484" rx="18" fill="#151a20" stroke="#35414b"/>
+  <rect x="28" y="28" width="904" height="55" rx="18" fill="#191f26"/>
+  <circle cx="56" cy="55" r="5" fill="#f07878"/><circle cx="75" cy="55" r="5" fill="#e7bc6c"/><circle cx="94" cy="55" r="5" fill="#77c39a"/>
+  <text x="125" y="60" fill="#c7cdd2" font-family="monospace" font-size="12">MiniDB / storage inspector</text>
+  <rect x="51" y="106" width="337" height="365" rx="12" fill="#10151a" stroke="#303a44"/>
+  <text x="75" y="139" fill="#dfe4e6" font-family="monospace" font-size="13">buffer_pool.cpp</text>
+  <g font-family="monospace" font-size="11">
+    <text x="74" y="178" fill="#62727e">01</text><text x="104" y="178" fill="#c89cf4">class</text><text x="141" y="178" fill="#e4d8f4"> BufferPool</text>
+    <text x="74" y="206" fill="#62727e">02</text><text x="104" y="206" fill="#8bbaa8">  fetch_page</text><text x="186" y="206" fill="#bfc9ce">(page_id)</text>
+    <text x="74" y="234" fill="#62727e">03</text><text x="104" y="234" fill="#9daab3">  pin_count</text><text x="179" y="234" fill="#e0b776">= 1</text>
+    <text x="74" y="262" fill="#62727e">04</text><text x="104" y="262" fill="#8bbaa8">  evict_page</text><text x="189" y="262" fill="#bfc9ce">(frame)</text>
+    <text x="74" y="290" fill="#62727e">05</text><text x="104" y="290" fill="#9daab3">  write_dirty</text><text x="191" y="290" fill="#e0b776">true</text>
+    <text x="74" y="318" fill="#62727e">06</text><text x="104" y="318" fill="#8bbaa8">  replacer</text><text x="166" y="318" fill="#c89cf4">LRU</text>
+    <text x="74" y="346" fill="#62727e">07</text><text x="104" y="346" fill="#9daab3">  page_table</text><text x="188" y="346" fill="#e0b776">updated</text>
+  </g>
+  <rect x="410" y="106" width="494" height="217" rx="12" fill="#192027" stroke="#34414b"/>
+  <text x="434" y="139" fill="#dfe4e6" font-family="monospace" font-size="13">Page layout / slot directory</text>
+  <rect x="435" y="164" width="444" height="123" rx="8" fill="#1e2930" stroke="#52636c"/>
+  <rect x="448" y="178" width="101" height="94" rx="4" fill="#364b4b" stroke="#659c8a"/>
+  <text x="461" y="200" fill="#c5e1d5" font-family="monospace" font-size="10">HEADER</text>
+  <text x="461" y="222" fill="#8ebaaa" font-family="monospace" font-size="9">page_id</text>
+  <text x="461" y="240" fill="#8ebaaa" font-family="monospace" font-size="9">free_space</text>
+  <rect x="560" y="178" width="193" height="94" rx="4" fill="#263741" stroke="#496878"/>
+  <text x="575" y="200" fill="#bed9e4" font-family="monospace" font-size="10">RECORD DATA</text>
+  <path d="M575 214h160M575 231h142M575 248h155" stroke="#648395" stroke-width="2"/>
+  <rect x="763" y="178" width="104" height="94" rx="4" fill="#3a3048" stroke="#8062a4"/>
+  <text x="777" y="200" fill="#d6c5e8" font-family="monospace" font-size="10">SLOTS</text>
+  <path d="M778 214h72M778 232h72M778 250h72" stroke="#9277b0" stroke-width="2"/>
+  <rect x="410" y="339" width="494" height="132" rx="12" fill="#192027" stroke="#34414b"/>
+  <text x="434" y="371" fill="#dfe4e6" font-family="monospace" font-size="13">Buffer frames</text>
+  <g>
+    <rect x="435" y="389" width="100" height="56" rx="7" fill="#253b3a" stroke="#538577"/><text x="450" y="413" fill="#aad6c7" font-family="monospace" font-size="10">FRAME 01</text><text x="450" y="430" fill="#7fae9c" font-family="monospace" font-size="9">pinned</text>
+    <rect x="546" y="389" width="100" height="56" rx="7" fill="#273541" stroke="#557588"/><text x="561" y="413" fill="#b6d2dc" font-family="monospace" font-size="10">FRAME 02</text><text x="561" y="430" fill="#84aaba" font-family="monospace" font-size="9">clean</text>
+    <rect x="657" y="389" width="100" height="56" rx="7" fill="#3b3048" stroke="#8062a4"/><text x="672" y="413" fill="#d5c2e7" font-family="monospace" font-size="10">FRAME 03</text><text x="672" y="430" fill="#aa8bc6" font-family="monospace" font-size="9">dirty</text>
+    <rect x="768" y="389" width="100" height="56" rx="7" fill="#303541" stroke="#606b7c"/><text x="783" y="413" fill="#ccd1db" font-family="monospace" font-size="10">FRAME 04</text><text x="783" y="430" fill="#9aa5b2" font-family="monospace" font-size="9">available</text>
+  </g>
+  <text x="49" y="500" fill="#71808b" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">CUSTOM PROJECT ILLUSTRATION</text>
+</svg>

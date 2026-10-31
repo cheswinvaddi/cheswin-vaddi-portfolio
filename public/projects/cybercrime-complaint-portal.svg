@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#12151b"/>
+  <rect x="28" y="28" width="904" height="484" rx="18" fill="#171c24" stroke="#38414e"/>
+  <rect x="28" y="28" width="188" height="484" rx="18" fill="#151a21"/>
+  <path d="M216 28v484" stroke="#38414e"/>
+  <path d="M59 49h22l10 5v17l-16 11L59 71V54z" fill="#a9a0ff"/>
+  <path d="m67 65 5 5 10-12" stroke="#201e31" stroke-width="2"/>
+  <text x="101" y="68" fill="#e1e3ed" font-family="Arial,sans-serif" font-size="12" font-weight="600">Case portal</text>
+  <rect x="48" y="109" width="144" height="33" rx="7" fill="#302d43"/>
+  <rect x="61" y="120" width="9" height="9" rx="2" fill="#b4aaff"/><text x="81" y="129" fill="#dedaf4" font-family="Arial,sans-serif" font-size="10">Overview</text>
+  <g fill="#9198a7" font-family="Arial,sans-serif" font-size="10"><text x="81" y="169">My complaints</text><text x="81" y="205">Submit a report</text><text x="81" y="241">Help &amp; guidance</text></g>
+  <g fill="#666f7d"><rect x="61" y="160" width="9" height="9" rx="2"/><rect x="61" y="196" width="9" height="9" rx="2"/><rect x="61" y="232" width="9" height="9" rx="2"/></g>
+  <rect x="48" y="416" width="144" height="66" rx="9" fill="#202630"/>
+  <circle cx="69" cy="441" r="11" fill="#3d4353"/><text x="89" y="439" fill="#c2c7d0" font-family="Arial,sans-serif" font-size="9">Signed in as</text><text x="89" y="454" fill="#8992a1" font-family="Arial,sans-serif" font-size="9">Account holder</text>
+  <text x="244" y="71" fill="#ebedf3" font-family="Arial,sans-serif" font-size="21" font-weight="600">Complaint overview</text>
+  <text x="244" y="95" fill="#969eae" font-family="Arial,sans-serif" font-size="11">Track submissions and review case updates</text>
+  <rect x="797" y="52" width="108" height="31" rx="8" fill="#a69afb"/><text x="813" y="72" fill="#1e1a31" font-family="Arial,sans-serif" font-size="10" font-weight="600">New complaint</text>
+  <rect x="244" y="119" width="199" height="81" rx="10" fill="#202630" stroke="#37414d"/>
+  <text x="263" y="146" fill="#9ca5b2" font-family="Arial,sans-serif" font-size="10">REPORTS</text><text x="263" y="179" fill="#eef0f4" font-family="Arial,sans-serif" font-size="17" font-weight="600">Submission tracking</text>
+  <rect x="456" y="119" width="199" height="81" rx="10" fill="#202630" stroke="#37414d"/>
+  <text x="475" y="146" fill="#9ca5b2" font-family="Arial,sans-serif" font-size="10">ADMIN FLOW</text><text x="475" y="179" fill="#e6c77e" font-family="Arial,sans-serif" font-size="17" font-weight="600">Review updates</text>
+  <rect x="668" y="119" width="237" height="81" rx="10" fill="#202630" stroke="#37414d"/>
+  <text x="687" y="146" fill="#9ca5b2" font-family="Arial,sans-serif" font-size="10">STATUS</text><text x="687" y="179" fill="#75c5a5" font-family="Arial,sans-serif" font-size="17" font-weight="600">Case progress</text><path d="m833 162 7 7 13-15" stroke="#75c5a5" stroke-width="2"/>
+  <rect x="244" y="218" width="661" height="260" rx="11" fill="#1b212a" stroke="#37414d"/>
+  <text x="264" y="250" fill="#e0e4eb" font-family="Arial,sans-serif" font-size="14" font-weight="600">Recent complaints</text>
+  <text x="264" y="280" fill="#7f8998" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">REFERENCE</text><text x="434" y="280" fill="#7f8998" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">SUBJECT</text><text x="672" y="280" fill="#7f8998" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">UPDATED</text><text x="808" y="280" fill="#7f8998" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">STATUS</text>
+  <path d="M264 293h621M264 340h621M264 387h621M264 434h621" stroke="#303844"/>
+  <g fill="#cbd0d9" font-family="Arial,sans-serif" font-size="10"><text x="264" y="322">Reference</text><text x="434" y="322">Submitted report</text><text x="672" y="322">Update</text><text x="264" y="369">Reference</text><text x="434" y="369">Supporting details</text><text x="672" y="369">Update</text><text x="264" y="416">Reference</text><text x="434" y="416">Review status</text><text x="672" y="416">Update</text></g>
+  <rect x="797" y="306" width="76" height="22" rx="11" fill="#483c2b"/><text x="810" y="321" fill="#e6c77e" font-family="Arial,sans-serif" font-size="9">In review</text>
+  <rect x="797" y="353" width="76" height="22" rx="11" fill="#302d43"/><text x="808" y="368" fill="#c3baff" font-family="Arial,sans-serif" font-size="9">Submitted</text>
+  <rect x="797" y="400" width="76" height="22" rx="11" fill="#263d36"/><text x="811" y="415" fill="#88d5b5" font-family="Arial,sans-serif" font-size="9">Resolved</text>
+  <text x="49" y="500" fill="#78818f" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">CUSTOM PROJECT ILLUSTRATION</text>
+</svg>
