@@ -16,7 +16,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { SectionHeading } from "@/components/section-heading";
 import {
-  projectCategories,
+  projectCategorySections,
   projects,
   type Project,
 } from "@/data/projects";
@@ -33,7 +33,7 @@ function ProjectArtwork({ project }: { project: Project }) {
         src={project.thumbnail.image}
         alt=""
         fill
-        sizes="(max-width: 760px) 100vw, (max-width: 1050px) 50vw, 560px"
+        sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1050px) calc(50vw - 36px), 380px"
       />
     </div>
   );
@@ -172,16 +172,11 @@ function ProjectDialog({
 }
 
 export function ProjectsSection() {
-  const [activeCategory, setActiveCategory] = useState<(typeof projectCategories)[number]>("All");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const shouldReduceMotion = useReducedMotion();
   const dialogRef = useRef<HTMLDialogElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
-  const visibleProjects = projects.filter(
-    (project) => project.featured &&
-      (activeCategory === "All" || project.category === activeCategory),
-  );
 
   return (
     <section className="section work-section" id="projects">
@@ -192,80 +187,93 @@ export function ProjectsSection() {
           title="Ideas, made tangible."
           description="A selection of projects across machine learning, full-stack software, data, and systems engineering."
         />
-        <div className="project-filters" role="group" aria-label="Filter projects by category">
-          {projectCategories.map((category) => (
-            <button
-              className={`project-filter${activeCategory === category ? " is-active" : ""}`}
-              type="button"
-              key={category}
-              aria-pressed={activeCategory === category}
-              onClick={() => setActiveCategory(category)}
-            >
-              {category}
-            </button>
-          ))}
+        <div className="project-category-list">
+          {projectCategorySections.map(({ category, description }, categoryIndex) => {
+            const categoryProjects = projects.filter(
+              (project) => project.featured && project.category === category,
+            );
+
+            return (
+              <motion.section
+                className="project-category-section"
+                key={category}
+                aria-labelledby={`project-category-${categoryIndex}`}
+                initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.12 }}
+                transition={{ duration: 0.45, ease: "easeOut" }}
+              >
+                <header className="project-category-heading">
+                  <span className="project-category-number" aria-hidden="true">
+                    {String(categoryIndex + 1).padStart(2, "0")}
+                  </span>
+                  <div>
+                    <h3 id={`project-category-${categoryIndex}`}>{category}</h3>
+                    <p>{description}</p>
+                  </div>
+                </header>
+                {categoryProjects.length > 0 ? (
+                  <div className="projects-grid">
+                    {categoryProjects.map((project) => (
+                      <motion.article
+                        className="project-card"
+                        key={project.slug}
+                        initial={shouldReduceMotion ? false : { opacity: 0, y: 14 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.1 }}
+                        transition={{ duration: 0.35, ease: "easeOut" }}
+                      >
+                        <button
+                          className="project-card-open"
+                          type="button"
+                          aria-label={`View ${project.name} case study`}
+                          onClick={(event) => {
+                            triggerRef.current = event.currentTarget;
+                            setSelectedProject(project);
+                          }}
+                        >
+                          <ProjectArtwork project={project} />
+                          <span className="project-card-copy">
+                            <span className="project-card-meta">
+                              <span>{project.category}</span>
+                              <ArrowUpRight size={15} aria-hidden="true" />
+                            </span>
+                            <span className="project-card-title">{project.name}</span>
+                            <span className="project-card-description">{project.summary}</span>
+                            <span className="project-card-tech">
+                              {project.technologies.slice(0, 4).map((technology) => (
+                                <span key={technology}>{technology}</span>
+                              ))}
+                              {project.technologies.length > 4 && (
+                                <span>+{project.technologies.length - 4}</span>
+                              )}
+                            </span>
+                            <span className="project-card-link">
+                              Explore case study <ArrowDownRight size={14} aria-hidden="true" />
+                            </span>
+                          </span>
+                        </button>
+                        <a
+                          className="project-card-github"
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label={`${project.name} on GitHub`}
+                        >
+                          <Github size={16} aria-hidden="true" />
+                        </a>
+                      </motion.article>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="project-category-empty" role="status">
+                    No featured projects in this category yet.
+                  </p>
+                )}
+              </motion.section>
+            );
+          })}
         </div>
-        {visibleProjects.length > 0 ? (
-          <motion.div className="projects-grid" layout>
-            <AnimatePresence mode="popLayout">
-              {visibleProjects.map((project, index) => (
-                <motion.article
-                  className="project-card"
-                  key={project.slug}
-                  layout
-                  initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 12 }}
-                  transition={{ duration: 0.32, delay: index * 0.035 }}
-                >
-                  <button
-                    className="project-card-open"
-                    type="button"
-                    aria-label={`View ${project.name} case study`}
-                    onClick={(event) => {
-                      triggerRef.current = event.currentTarget;
-                      setSelectedProject(project);
-                    }}
-                  >
-                    <ProjectArtwork project={project} />
-                    <span className="project-card-copy">
-                      <span className="project-card-meta">
-                        <span>{project.category}</span>
-                        <ArrowUpRight size={15} aria-hidden="true" />
-                      </span>
-                      <span className="project-card-title">{project.name}</span>
-                      <span className="project-card-description">{project.summary}</span>
-                      <span className="project-card-tech">
-                        {project.technologies.slice(0, 4).map((technology) => (
-                          <span key={technology}>{technology}</span>
-                        ))}
-                        {project.technologies.length > 4 && (
-                          <span>+{project.technologies.length - 4}</span>
-                        )}
-                      </span>
-                      <span className="project-card-link">
-                        Explore case study <ArrowDownRight size={14} aria-hidden="true" />
-                      </span>
-                    </span>
-                  </button>
-                  <a
-                    className="project-card-github"
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.name} on GitHub`}
-                  >
-                    <Github size={16} aria-hidden="true" />
-                  </a>
-                </motion.article>
-              ))}
-            </AnimatePresence>
-          </motion.div>
-        ) : (
-          <div className="project-empty-state" role="status">
-            More work in this category will be added as it is ready to share.
-          </div>
-        )}
         <a
           className="button button-outline github-link"
           href="https://github.com/cheswinvaddi"

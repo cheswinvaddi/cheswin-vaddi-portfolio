@@ -34,13 +34,35 @@ export type Project = {
   status?: string;
 };
 
-export const projectCategories: Array<"All" | ProjectCategory> = [
-  "All",
-  "AI & Machine Learning",
-  "Full Stack Development",
-  "Backend Engineering",
-  "Data Analytics",
-  "Web Development",
+export const projectCategorySections: Array<{
+  category: ProjectCategory;
+  description: string;
+}> = [
+  {
+    category: "AI & Machine Learning",
+    description:
+      "Intelligent products spanning recommendations, conversational learning, and AI-assisted engineering workflows.",
+  },
+  {
+    category: "Full Stack Development",
+    description:
+      "End-to-end applications that bring user-facing workflows together with authentication, data, and APIs.",
+  },
+  {
+    category: "Backend Engineering",
+    description:
+      "Server-side systems, data services, and foundational engineering behind reliable applications.",
+  },
+  {
+    category: "Data Analytics",
+    description:
+      "Practical work focused on preparing, querying, and analyzing structured datasets.",
+  },
+  {
+    category: "Web Development",
+    description:
+      "Web experiences and interfaces built for clear, useful interactions.",
+  },
 ];
 
 export const projects: Project[] = [
