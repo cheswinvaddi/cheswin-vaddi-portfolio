@@ -119,25 +119,38 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div className="hero-actions" {...entrance(0.54)}>
-            <a className="button button-primary hero-project-button" href="#projects">
+            <motion.a
+              className="button button-primary hero-project-button"
+              href="#projects"
+              whileHover={shouldReduceMotion ? undefined : { y: -2 }}
+              whileTap={shouldReduceMotion ? undefined : { scale: 0.98 }}
+            >
               View My Projects <ArrowDownRight size={17} aria-hidden="true" />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
               className="button button-quiet hero-resume-button"
               href={profile.resumePath}
-              download
+              target="_blank"
+              rel="noreferrer"
+              aria-label="View résumé PDF in a new tab"
+              whileHover={shouldReduceMotion ? undefined : { y: -2 }}
+              whileTap={shouldReduceMotion ? undefined : { scale: 0.98 }}
             >
-              Download Resume <ArrowDown size={16} aria-hidden="true" />
-            </a>
-            <a
+              View Resume PDF <ArrowUpRight size={16} aria-hidden="true" />
+            </motion.a>
+            <motion.a
               className="button hero-email-button"
-              href={`mailto:${profile.email}`}
-              aria-label="Email Cheswin"
+              href={profile.emailComposeUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Email Cheswin using Gmail (opens in a new tab)"
+              whileHover={shouldReduceMotion ? undefined : { y: -2 }}
+              whileTap={shouldReduceMotion ? undefined : { scale: 0.98 }}
             >
               <Mail size={17} aria-hidden="true" />
               <span>Email me</span>
               <ArrowUpRight className="hero-email-arrow" size={14} aria-hidden="true" />
-            </a>
+            </motion.a>
           </motion.div>
 
           <motion.div className="hero-socials" {...entrance(0.65)}>

@@ -72,6 +72,5 @@ Backend & Systems: FastAPI, Node.js, Express, PostgreSQL, MongoDB, C++23
 
 CONTACT
 Email: cheswinvaddi.1@gmail.com
-Phone: +91 6303313433
 GitHub: https://github.com/cheswinvaddi
 LinkedIn: https://www.linkedin.com/in/cheswin-vaddi/

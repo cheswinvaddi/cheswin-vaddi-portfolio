@@ -7,7 +7,7 @@ A personal portfolio highlighting Cheswin Vaddi's projects, technical interests,
 - Responsive dark-theme portfolio with animated navigation and hero section.
 - Project gallery with category filters, project-specific artwork, and accessible case-study dialogs.
 - Centralized profile, project, experience, skills, education, and achievement data.
-- Downloadable résumé and contact links.
+- Viewable résumé PDF and contact links.
 - SEO metadata and reduced-motion-aware animation behavior.
 
 Project gallery artwork is custom SVG illustration, not screenshots of deployed applications.
@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 ```text
 public/
   projects/                 Project-specific SVG illustrations
-  cheswin-vaddi-resume.txt  Downloadable résumé
+  cheswin-vaddi-resume.pdf  Viewable résumé PDF
 src/
   app/                      Next.js app entry, layout, and global styles
   components/               Reusable portfolio sections and UI

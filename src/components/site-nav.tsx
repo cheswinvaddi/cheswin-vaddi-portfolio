@@ -34,11 +34,12 @@ export function SiteNav() {
         <a
           className="nav-resume"
           href={profile.resumePath}
-          download
-          aria-label="Download resume"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View résumé PDF"
         >
           <Download size={14} aria-hidden="true" />
-          Resume
+          View résumé
         </a>
         <a className="nav-cta" href="#contact">
           Let&apos;s talk <span aria-hidden="true">↗</span>
@@ -73,12 +74,13 @@ export function SiteNav() {
         <a
           className="mobile-resume-link"
           href={profile.resumePath}
-          download
-          aria-label="Download resume"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View résumé PDF"
           tabIndex={menuOpen ? 0 : -1}
           onClick={() => setMenuOpen(false)}
         >
-          Download résumé
+          View résumé
           <Download size={14} aria-hidden="true" />
         </a>
       </div>

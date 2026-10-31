@@ -1,28 +1,47 @@
-import { ArrowUpRight, Github, Linkedin, Mail, Phone } from "lucide-react";
+"use client";
+
+import { motion, useReducedMotion } from "framer-motion";
+import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
 import { profile } from "@/data/profile";
 import { SectionHeading } from "@/components/section-heading";
 
 export function ContactSection() {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
     <section className="section contact-section" id="contact">
       <div className="section-inner">
         <SectionHeading index="06" eyebrow="Make something matter" title="Have a good one?" />
-        <div className="contact-content">
+        <motion.div
+          className="contact-content"
+          initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 0.55, ease: "easeOut" }}
+        >
           <p>
             I&apos;m always up for a conversation about AI, software, or an
             interesting problem worth solving.
           </p>
-          <a className="contact-email" href={`mailto:${profile.email}`}>
+          <motion.a
+            className="contact-email"
+            href={`mailto:${profile.email}`}
+            whileHover={shouldReduceMotion ? undefined : { y: -2 }}
+            whileTap={shouldReduceMotion ? undefined : { scale: 0.99 }}
+          >
             {profile.email}
             <ArrowUpRight size={25} aria-hidden="true" />
-          </a>
+          </motion.a>
           <div className="contact-links">
-            <a href={`tel:${profile.phone.replaceAll(" ", "")}`}>
-              <Phone size={15} aria-hidden="true" /> {profile.phone}
-            </a>
-            <a href={`mailto:${profile.email}`}>
+            <motion.a
+              href={profile.emailComposeUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Email me using Gmail (opens in a new tab)"
+              whileHover={shouldReduceMotion ? undefined : { y: -2 }}
+            >
               <Mail size={15} aria-hidden="true" /> Email me
-            </a>
+            </motion.a>
             <a
               href={profile.socialLinks[0].href}
               target="_blank"
@@ -40,7 +59,7 @@ export function ContactSection() {
               <Linkedin size={15} aria-hidden="true" /> LinkedIn
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
