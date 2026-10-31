@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 ```text
 public/
   projects/                 Project-specific SVG illustrations
-  cheswin-vaddi-resume.pdf  Viewable résumé PDF
+  resume.pdf               Viewable résumé PDF
 src/
   app/                      Next.js app entry, layout, and global styles
   components/               Reusable portfolio sections and UI

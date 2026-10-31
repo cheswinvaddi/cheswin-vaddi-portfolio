@@ -35,9 +35,7 @@ export function ContactSection() {
           <div className="contact-links">
             <motion.a
               href={profile.emailComposeUrl}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Email me using Gmail (opens in a new tab)"
+              aria-label="Email Cheswin"
               whileHover={shouldReduceMotion ? undefined : { y: -2 }}
             >
               <Mail size={15} aria-hidden="true" /> Email me

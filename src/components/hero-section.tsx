@@ -141,9 +141,7 @@ export function HeroSection() {
             <motion.a
               className="button hero-email-button"
               href={profile.emailComposeUrl}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Email Cheswin using Gmail (opens in a new tab)"
+              aria-label="Email Cheswin"
               whileHover={shouldReduceMotion ? undefined : { y: -2 }}
               whileTap={shouldReduceMotion ? undefined : { scale: 0.98 }}
             >
